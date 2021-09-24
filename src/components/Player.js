@@ -2,6 +2,7 @@ import React from 'react';
 import '../css/Player.css';
 import Sidebar from './Sidebar';
 import Body from './Body';
+import Footer from './Footer';
 
 function Player({ spotify }) {
 	return (
@@ -10,7 +11,7 @@ function Player({ spotify }) {
 				<Sidebar />
 				<Body />
 			</div>
-			<h1>Welcome to Spotify</h1>
+			<Footer />
 		</div>
 	)
 }
