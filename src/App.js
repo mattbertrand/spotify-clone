@@ -5,7 +5,6 @@ import { getTokenFromUrl } from './spotify';
 import SpotifyWebApi from 'spotify-web-api-js';
 import Player from './components/Player';
 import { useStateProviderValue } from './components/StateProvider';
-import { conditionalExpression } from '@babel/types';
 
 const spotify = new SpotifyWebApi();
 
