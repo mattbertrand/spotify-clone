@@ -4,7 +4,11 @@ import '../css/Login.css';
 function Login() {
 	return (
 		<div className="login">
-			<h1>Login page</h1>
+			<img 
+				src="https://1000logos.net/wp-content/uploads/2017/08/Spotify-symbol-768x234.jpg"
+				alt=""
+			/>
+			<a>LOGIN WITH SPOTIFY</a>
 		</div>
 	)
 }
